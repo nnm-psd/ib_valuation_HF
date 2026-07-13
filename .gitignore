@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+data/raw/
+data/cache/
+.env
+.DS_Store
+*.egg-info/
+dist/
+build/
+# NOTE: data/processed/valuation_lab.db is intentionally NOT ignored
+# so the pre-crawled DB gets committed and served on HF Spaces / Streamlit Cloud
